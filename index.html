@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploration de la Nature - Découverte des Écosystèmes</title>
+    <meta name="description" content="Un voyage à travers les différents écosystèmes de notre planète avec des images et des informations captivantes.">
+    <style>
+        /* Style minimal pour améliorer l'apparence */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        main {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: #3498db;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            margin: 1.5rem 0 0.8rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .images-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        figure {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        figure:hover {
+            transform: translateY(-5px);
+        }
+        
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+        
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            padding-left: 0.5rem;
+        }
+        
+        .external-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 1rem 0;
+            transition: background-color 0.3s;
+        }
+        
+        .external-link:hover {
+            background-color: #2980b9;
+        }
+        
+        .validation-links {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .validation-link {
+            background-color: #27ae60;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+            
+            .images-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header comme 3ème balise sémantique -->
+    <header>
+        <h1>Exploration des Écosystèmes Naturels</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#ecosystemes">Écosystèmes</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#ressources">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Balise main obligatoire -->
+    <main>
+        <!-- Section comme balise sémantique supplémentaire -->
+        <section id="introduction">
+            <h2>Découverte de la Biodiversité</h2>
+            <p>Notre planète abrite une incroyable diversité d'écosystèmes, chacun avec ses caractéristiques uniques et sa faune et flore spécifiques. Ce site vous propose un voyage à travers quelques-uns de ces environnements remarquables.</p>
+            
+            <h3>Importance des écosystèmes :</h3>
+            <ul>
+                <li>Régulation du climat mondial</li>
+                <li>Production d'oxygène et séquestration du carbone</li>
+                <li>Maintien de la biodiversité</li>
+                <li>Fourniture de ressources essentielles</li>
+            </ul>
+        </section>
+        
+        <!-- Section comme balise sémantique supplémentaire -->
+        <section id="ecosystemes">
+            <h2>Principaux Types d'Écosystèmes</h2>
+            
+            <h3>Forêts Tropicales Humides</h3>
+            <p>Les forêts tropicales, bien que ne couvrant que 6% de la surface terrestre, abritent plus de 50% des espèces végétales et animales du monde.</p>
+            
+            <h3>Récifs Coralliens</h3>
+            <p>Souvent appelés "les forêts tropicales de la mer", les récifs coralliens abritent environ 25% de toutes les espèces marines.</p>
+            
+            <h3>Écosystèmes Montagneux</h3>
+            <p>Les montagnes fournissent de l'eau douce à plus de la moitié de la population mondiale et abritent des espèces uniques adaptées aux conditions extrêmes.</p>
+        </section>
+        
+        <!-- Section comme balise sémantique supplémentaire -->
+        <section id="galerie">
+            <h2>Galerie Photographique</h2>
+            <p>Découvrez la beauté de la nature à travers ces trois images représentant différents écosystèmes :</p>
+            
+            <div class="images-container">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                         alt="Forêt dense de feuillus en automne avec des arbres aux feuilles jaunes et oranges formant une voûte au-dessus d'un chemin"
+                         width="800" height="600">
+                    <figcaption>Forêt tempérée en automne - Europe</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                         alt="Chaîne de montagnes rocheuses aux sommets enneigés se découpant sur un ciel bleu avec quelques nuages blancs"
+                         width="800" height="600">
+                    <figcaption>Alpes enneigées - Suisse</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                         alt="Lac de montagne aux eaux turquoise parfaitement calmes reflétant les pics rocheux et les arbres environnants"
+                         width="800" height="600">
+                    <figcaption>Lac de montagne - Canada</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <!-- Section comme balise sémantique supplémentaire -->
+        <section id="ressources">
+            <h2>Ressources et Informations Complémentaires</h2>
+            
+            <h3>Pour en savoir plus :</h3>
+            <ol>
+                <li>Consultez les rapports scientifiques sur la biodiversité</li>
+                <li>Participez à des programmes de conservation locaux</li>
+                <li>Adoptez des pratiques durables dans votre vie quotidienne</li>
+                <li>Soutenez les organisations de protection de l'environnement</li>
+            </ol>
+            
+            <p>Découvrez des ressources supplémentaires pour approfondir vos connaissances :</p>
+            <a class="external-link" 
+               href="https://www.worldwildlife.org/" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                Visiter le site du WWF (Fonds Mondial pour la Nature)
+            </a>
+            
+            <div class="validation-links">
+                <p>Vérifiez la validité de ce site :</p>
+                <a class="validation-link" 
+                   href="https://validator.w3.org/#validate_by_input" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    Valider le code HTML
+                </a>
+                <a class="validation-link" 
+                   href="https://wave.webaim.org/" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    Tester l'accessibilité
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer comme balise sémantique supplémentaire -->
+    <footer>
+        <p>Projet Final HTML5 - Cours Développement Web</p>
+        <p>© 2023 Exploration de la Nature. Tous droits réservés.</p>
+        <p>Ce site respecte les standards W3C et les normes d'accessibilité WCAG.</p>
+        <p>Dernière mise à jour : Décembre 2023</p>
+    </footer>
+</body>
+</html>
